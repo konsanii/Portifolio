@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/portifolio/static/js/main.cf6618cd.js",
+    "static/js/396.6910be6b.js": "/portifolio/static/js/396.6910be6b.js",
+    "favicon.ico": "/portifolio/favicon.ico",
+    "index.html": "/portifolio/index.html",
+    "favicon-32.png": "/portifolio/favicon-32.png",
+    "favicon-16.png": "/portifolio/favicon-16.png",
+    "serve.json": "/portifolio/serve.json",
+    "manifest.json": "/portifolio/manifest.json",
+    "main.cf6618cd.js.map": "/portifolio/static/js/main.cf6618cd.js.map",
+    "396.6910be6b.js.map": "/portifolio/static/js/396.6910be6b.js.map"
+  },
+  "entrypoints": [
+    "static/js/396.6910be6b.js",
+    "static/js/main.cf6618cd.js"
+  ]
+}

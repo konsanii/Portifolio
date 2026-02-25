@@ -1,0 +1,8 @@
+{
+  "display": "standalone",
+  "lang": "en",
+  "name": "Portfólio Lucas Consani",
+  "short_name": "Portfólio Lucas Consani",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait"
+}
