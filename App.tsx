@@ -7,6 +7,7 @@ import {
   View,
   Linking,
   TouchableOpacity,
+  Image,
 } from 'react-native';
 
 const App = () => {
@@ -26,9 +27,10 @@ const App = () => {
         <View style={styles.header}>
           <View style={styles.headerContent}>
             <View style={styles.photoContainer}>
-              <View style={styles.photoPlaceholder}>
-                <Text style={styles.photoEmoji}>👨‍💻</Text>
-              </View>
+              <Image 
+                source={require('./assets/foto.jpeg')}
+                style={styles.photo}
+              />
               <View style={styles.statusBadge}>
                 <View style={styles.statusDot} />
                 <Text style={styles.statusText}>Disponível</Text>
@@ -333,6 +335,18 @@ const styles = StyleSheet.create({
   photoContainer: {
     position: 'relative',
     marginBottom: 24,
+  },
+  photo: {
+    width: 140,
+    height: 140,
+    borderRadius: 70,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.3,
+    shadowRadius: 20,
+    elevation: 10,
+    borderWidth: 5,
+    borderColor: '#ffffff',
   },
   photoPlaceholder: {
     width: 140,
